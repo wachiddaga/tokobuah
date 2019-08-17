@@ -33,7 +33,7 @@
 					</div>
 					<div class="card-body">
 
-						<form action="<?php base_url(" admin/product/edit") ?>" method="post"
+						<form action="<?php base_url("admin/product/edit") ?>" method="post"
 							enctype="multipart/form-data" >
 
 							<input type="hidden" name="id" value="<?php echo $product->product_id?>" />
